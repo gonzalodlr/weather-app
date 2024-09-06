@@ -9,7 +9,6 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v4
-    - name: Build
       env:
         API_KEY: ${{ secrets.API_Key }}
     - name: Deploy 🚀
